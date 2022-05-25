@@ -6,6 +6,6 @@ st.write("""
 # My first app
 hello *world!!*
 """)
-
-df=pd.read_csv("product.csv")
+url='https://raw.githubusercontent.com/kwaii00/product1/main/product.csv'
+df=pd.read_csv(url)
 st.line_chart(df)
